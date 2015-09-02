@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Currículo | Júnior de Freitas</title>
+        <!--Mostrando ao navegador que o site é otimizado pra mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        
+        
+        <!--Importando o css -->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="all">
+        <link type="text/css" rel="stylesheet" href="css/custom.css">
+
+        <!--Importando o material icon e font awesome icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="font/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">        
+        
+        
+    </head>
+    <body>
+         <!--Importando o javascript-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                //Menu responsivo
+                $(".button-collapse").sideNav();
+            });
+        </script>
+
+        <header class="teal" >           
+            <nav class="top-nav teal">                
+                <div class="nav-wrapper">
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                    <ul class="side-nav fixed black" id="mobile-demo">
+                        <li><a href="#portfolio" class="waves-effect">Portfólio</a></li>
+                        <li><a href="#habilidades" class="waves-effect">Habilidades</a></li>
+                        <li><a href="#contato" class="waves-effect">Contato</a></li>                    
+                    </ul>                   
+            </nav>
+            <img src="img/avatar.jpg" alt="avatar" class="circle responsive-img">
+            <h5 class="white-text">Júnior de Freitas</h5>
+            <h4 class="white-text">Desenvolvedor Front-End</h4>
+                <div class="container">
+                <hr class="white-text">
+                </div>
+            <div class="icons">
+                <ul>
+                 <li><a href="https://www.facebook.com/junior.difreitah" class="fa fa-facebook" target="_blank"></a></li>
+                 <li><a href="https://instagram.com/juniordifreitah/" class="fa fa-instagram" target="_blank"></a></li>             
+                 <li><a href="https://github.com/JuniorDeFreitas" class="fa fa-github" target="_blank"></a></li>
+                 <li><a href="https://br.linkedin.com/in/juniordefreitas" class="fa fa-linkedin" target="_blank"></a></li>              
+               </ul>
+            </div>
+            </div> 
+        </header>
+        <main>
+        <section id="portfolio" class="portfolio white">
+            <div class="container">
+                <h4 class="teal-text">Portfólio</h4>
+                <hr class="teal-text">
+                <div class="row">                                          
+                    <div><img class="materialboxed" src="img/pic01.jpg" alt=""></div>                           <div><img class="materialboxed" src="img/pic02.jpg" alt=""></div>
+                    <div><img class="materialboxed" src="img/pic03.jpg" alt=""></div> 
+                    <div><img class="materialboxed" src="img/pic04.jpg" alt=""></div>
+                    <div><img class="materialboxed" src="img/pic05.jpg" alt=""></div>
+                    <div><img class="materialboxed" src="img/pic06.jpg" alt=""></div> 
+                </div>
+            </div>            
+        </section>        
+        <section id="habilidades" class="habilidades grey lighten-3">
+            <div class="container">
+                <h4 class="teal-text">Habilidades</h4>
+                <hr class="teal-text">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="center">
+                            <i class="fa fa-html5"></i>
+                            <h5>HTML 5</h5>
+                            <p class="center">
+                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                        
+                    <div class="col s12 m4">
+                        <div class="center">
+                            <i class="fa fa-css3"></i>
+                            <h5>CSS 3</h5>
+                            <p class="center">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </p>
+                        </div>
+                    </div>
+                        
+                    <div class="col s12 m4">
+                        <div class="center">
+                            <i class="fa fa-file-code-o"></i>
+                            <h5>JavaScript</h5>
+                            <p class="center">
+                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contato">
+            <div class="container">
+                <h4 class="teal-text">Contato</h4>
+                <hr class="teal-text">
+                <div class="row">
+                    <div class="col s12 m7">
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="input-field col s6">
+                                    <i class="mdi-action-account-circle prefix"></i>
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">Nome</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Sobrenome</label>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="mdi-communication-email prefix"></i>
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email">E-mail</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="mdi-communication-comment prefix"></i>
+                                        <textarea id="mensagem" class="materialize-textarea" required></textarea>
+                                        <label for="mensagem">Mensagem</label>
+                                    </div>
+                                </div>
+                                <button class="btn waves-effect waves-ligth" type="submit" name="action">
+                                    <i class="material-icons">send</i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 offset-m1 contact-holder">
+                        <h6 class="fa fa-home"> Endereço</h6>
+                        <p>Mangabeira, João Pessoa - Paraíba - Brasil</p>
+                        <h6 class="fa fa-phone"> Telefone</h6>
+                        <p>+55 83 99830-9755</p>
+                        <h6 class="fa fa-envelope"> E-mail</h6>
+                        <p>juniordifreitah10@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+        <footer class="page-footer teal lighten-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col 16 s12">
+                        <h5 class="white-text">Footer Content</h5>
+                        <p class="white-text">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col 14 offset-12 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a href="https://www.facebook.com/junior.difreitah" class="fa fa-facebook" target="_blank"></a></li>
+                        <li><a href="https://br.linkedin.com/in/juniordefreitas" class="fa fa-linkedin" target="_blank"></a></li>
+                        <li><a href="https://github.com/JuniorDeFreitas" class="fa fa-github" target="_blank"></a></li>
+                        <li><a href="https://instagram.com/juniordifreitah/" class="fa fa-instagram" target="_blank"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    2015 Copyright Júnior de Freitas
+                </div>
+            </div>            
+        </footer>
+    </body>
+</html>

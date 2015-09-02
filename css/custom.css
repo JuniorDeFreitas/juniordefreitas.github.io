@@ -1,0 +1,141 @@
+html {
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+}
+
+header,
+main,
+footer {
+    padding-left: 240px;
+}
+
+header .logo {
+    margin-left: 20px
+}
+
+h1 {
+    font-size: 1.5rem;
+    line-height: 25px;
+    color: #f5f5f5;
+}
+
+header nav {
+    box-shadow: none;
+    width: 100%;
+}
+
+header .icons ul li {
+    display: inline;
+    padding: 2%;
+}
+
+header .icons ul li a{
+    color: #f5f5f5;
+
+}
+header .icons ul li a:hover{
+    color: #c6c6c6;
+}
+header nav ul li a {
+    position: relative;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.7rem;
+    margin: 0 10px;
+}
+
+.button-collapse {
+    margin-left: 25px;
+}
+
+ul.side-nav.fixed a {
+    color: white;
+}
+
+ul.side-nav.fixed a:hover {
+    color:#a3a3a3;
+}
+
+li {
+    list-style-type: none;
+}
+
+section {
+    padding: 4% 0 4% 0;
+}
+ 
+section .col {
+    margin-bottom: 24px;
+}
+
+section h4 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section hr {
+    width: 50px;
+    margin-bottom: 45px;
+    border: 1px solid;
+    color: teal;
+}
+
+.portfolio img {
+    width: 33%;
+    display: inline-block;
+    float: left;
+    padding: 0.5%;
+    box-shadow: 0 0 0.3em grey;
+    
+}
+
+.habilidades i {
+    color: teal;
+    font-size: 7rem;
+    display: block;
+    
+}
+
+footer ul li {
+    position: relative;
+    display: inline;
+    padding: 1%;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer ul li a:hover{
+    color: #c6c6c6;
+}
+/*** RESPONSIVO ***/
+
+@media only screen and (max-width: 992px) {
+    header ul.side-nav li a {
+        font-size: 1.7rem
+    }
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .portfolio img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    .portfolio img {
+        width: 100%;
+    }
+}
